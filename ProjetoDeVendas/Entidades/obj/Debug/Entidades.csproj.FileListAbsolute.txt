@@ -4,3 +4,9 @@ C:\Users\CLIENTE\source\repos\ProjetoDeVendas\Entidades\obj\Debug\Entidades.cspr
 C:\Users\CLIENTE\source\repos\ProjetoDeVendas\Entidades\obj\Debug\Entidades.dll
 C:\Users\CLIENTE\source\repos\ProjetoDeVendas\Entidades\obj\Debug\Entidades.pdb
 C:\Users\CLIENTE\source\repos\ProjetoDeVendas\Entidades\obj\Debug\Entidades.csproj.AssemblyReference.cache
+D:\Projetos\VendasApiFila\ProjetoDeVendas\Entidades\bin\Debug\Entidades.dll
+D:\Projetos\VendasApiFila\ProjetoDeVendas\Entidades\bin\Debug\Entidades.pdb
+D:\Projetos\VendasApiFila\ProjetoDeVendas\Entidades\obj\Debug\Entidades.csproj.AssemblyReference.cache
+D:\Projetos\VendasApiFila\ProjetoDeVendas\Entidades\obj\Debug\Entidades.csproj.CoreCompileInputs.cache
+D:\Projetos\VendasApiFila\ProjetoDeVendas\Entidades\obj\Debug\Entidades.dll
+D:\Projetos\VendasApiFila\ProjetoDeVendas\Entidades\obj\Debug\Entidades.pdb

@@ -8,3 +8,13 @@ C:\Users\CLIENTE\source\repos\ProjetoDeVendas\GeradorDeNotasFiscais\obj\Debug\Ge
 C:\Users\CLIENTE\source\repos\ProjetoDeVendas\GeradorDeNotasFiscais\obj\Debug\GeradorDeNotasFiscais.csproj.CopyComplete
 C:\Users\CLIENTE\source\repos\ProjetoDeVendas\GeradorDeNotasFiscais\obj\Debug\GeradorDeNotasFiscais.exe
 C:\Users\CLIENTE\source\repos\ProjetoDeVendas\GeradorDeNotasFiscais\obj\Debug\GeradorDeNotasFiscais.pdb
+D:\Projetos\VendasApiFila\ProjetoDeVendas\GeradorDeNotasFiscais\bin\Debug\GeradorDeNotasFiscais.exe.config
+D:\Projetos\VendasApiFila\ProjetoDeVendas\GeradorDeNotasFiscais\bin\Debug\GeradorDeNotasFiscais.exe
+D:\Projetos\VendasApiFila\ProjetoDeVendas\GeradorDeNotasFiscais\bin\Debug\GeradorDeNotasFiscais.pdb
+D:\Projetos\VendasApiFila\ProjetoDeVendas\GeradorDeNotasFiscais\bin\Debug\Newtonsoft.Json.dll
+D:\Projetos\VendasApiFila\ProjetoDeVendas\GeradorDeNotasFiscais\bin\Debug\Newtonsoft.Json.xml
+D:\Projetos\VendasApiFila\ProjetoDeVendas\GeradorDeNotasFiscais\obj\Debug\GeradorDeNotasFiscais.csproj.AssemblyReference.cache
+D:\Projetos\VendasApiFila\ProjetoDeVendas\GeradorDeNotasFiscais\obj\Debug\GeradorDeNotasFiscais.csproj.CoreCompileInputs.cache
+D:\Projetos\VendasApiFila\ProjetoDeVendas\GeradorDeNotasFiscais\obj\Debug\GeradorDeNotasFiscais.csproj.CopyComplete
+D:\Projetos\VendasApiFila\ProjetoDeVendas\GeradorDeNotasFiscais\obj\Debug\GeradorDeNotasFiscais.exe
+D:\Projetos\VendasApiFila\ProjetoDeVendas\GeradorDeNotasFiscais\obj\Debug\GeradorDeNotasFiscais.pdb
