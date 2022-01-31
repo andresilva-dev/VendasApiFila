@@ -1,5 +1,6 @@
 ﻿using Entidades;
 using System;
+using System.Collections.Concurrent;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -21,16 +22,14 @@ namespace ProjetoDeVendas
 
         public long AdicioneXmlParaProcessamento(string xmlEnviado) 
         {
-            var protocolo = DateTime.Now.Ticks;
-
-            var nfceProcessamento = new NFCeProcessamento(protocolo, xmlEnviado);
+            var nfceProcessamento = NFCeFactory.Crie(xmlEnviado);
 
             lock (_listaDeXmlsRecebidos)
             {
                 _listaDeXmlsRecebidos.Add(nfceProcessamento);
             }
             
-            return protocolo;
+            return nfceProcessamento.Protocolo;
         }
 
         public string ObtenhaNumeroNFCeGerada(long protocolo)

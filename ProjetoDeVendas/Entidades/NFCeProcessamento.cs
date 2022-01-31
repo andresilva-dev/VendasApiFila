@@ -13,7 +13,7 @@ namespace Entidades
         private DateTime? _dataObtencaoParaProcessamento;
         private int? _numeroNFCe;
 
-        public NFCeProcessamento(long protocolo, string conteudo)
+        protected internal NFCeProcessamento(long protocolo, string conteudo)
         {
             if (protocolo <= 0)
             {
