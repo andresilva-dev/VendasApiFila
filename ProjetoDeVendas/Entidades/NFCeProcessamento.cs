@@ -36,7 +36,6 @@ namespace Entidades
             get => _dataObtencaoParaProcessamento;
             set
             {
-
                 if (value == null)
                 {
                     throw new Exception("A data informada para o início do processamento não pode ser nula.");
@@ -50,7 +49,6 @@ namespace Entidades
             get => _numeroNFCe;
             set
             {
-
                 if (value == null)
                 {
                     throw new Exception("O número da nota fiscal gerada não pode ser nulo.");
@@ -79,7 +77,7 @@ namespace Entidades
 
         public override string ToString()
         {
-            return $"NFCe em processamento protocolo: {Protocolo}";
+            return $"NFCeProcessamento (protocolo): {Protocolo}";
         }
 
         public override int GetHashCode()

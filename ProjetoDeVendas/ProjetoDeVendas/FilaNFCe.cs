@@ -10,6 +10,7 @@ namespace ProjetoDeVendas
 {
     public class FilaNFCe
     {
+        const int _tempoParaRemoverAposNaoConclusaoDoProcessamento = 60;
         private List<NFCeProcessamento> _listaDeXmlsRecebidos = new List<NFCeProcessamento>();
         private List<NFCeProcessamento> _listaDeXmlsEmProcessamento = new List<NFCeProcessamento>();
         private List<NFCeProcessamento> _listaDeXmlsProcessados = new List<NFCeProcessamento>();
@@ -32,7 +33,7 @@ namespace ProjetoDeVendas
             return protocolo;
         }
 
-        public string ObtenhaNumeroNFCE(long protocolo)
+        public string ObtenhaNumeroNFCeGerada(long protocolo)
         {
             string retorno = "Não existe uma nota fiscal com este protocolo";
 
@@ -102,27 +103,12 @@ namespace ProjetoDeVendas
                 {
                     Console.WriteLine("########## LOG ############");
 
-                    StringBuilder sb = new StringBuilder();
-                    sb.Append(DateTime.Now.ToString() + "\n");
-                    sb.Append("Qtd de xmls na Fila: " + _listaDeXmlsRecebidos.Count + "\n");
-                    sb.Append("Itens em processamento: " + _listaDeXmlsEmProcessamento.Count + " | " + " Processados: " + _listaDeXmlsProcessados.Count +"\n");
+                    StringBuilder conteudoLog = new StringBuilder();
+                    conteudoLog.Append(DateTime.Now.ToString() + "\n");
+                    conteudoLog.Append("Qtd de xmls na Fila: " + _listaDeXmlsRecebidos.Count + "\n");
+                    conteudoLog.Append("Itens em processamento: " + _listaDeXmlsEmProcessamento.Count + " | " + " Processados: " + _listaDeXmlsProcessados.Count +"\n");
 
-                    sb.Append("Protocolos de itens processados: \n");
-                    lock (_listaDeXmlsProcessados)
-                    {
-                        int contador = 0;
-                        foreach (var item in _listaDeXmlsProcessados)
-                        {
-                            sb.Append(item.Protocolo + "\n");
-                            contador++;
-                            if (contador == 5)
-                            {
-                                break;
-                            }
-                        }
-                    }
-
-                    Console.WriteLine(sb.ToString());
+                    Console.WriteLine(conteudoLog.ToString());
                 }
                 catch (Exception)
                 { }
@@ -144,7 +130,7 @@ namespace ProjetoDeVendas
 
                         DateTime inicio = item.DataObtencaoParaProcessamento.Value;
                         long minutos = ObtenhaDiferencaHoras(DateTime.Now, inicio);
-                        if (minutos >= 20)
+                        if (minutos >= _tempoParaRemoverAposNaoConclusaoDoProcessamento)
                         {
                             listaRemover.Add(item.Protocolo);
                         }

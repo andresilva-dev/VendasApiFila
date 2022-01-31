@@ -1,0 +1,16 @@
+D:\Projetos\VendasApiFila\ProjetoDeVendas\Testes\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+D:\Projetos\VendasApiFila\ProjetoDeVendas\Testes\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+D:\Projetos\VendasApiFila\ProjetoDeVendas\Testes\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+D:\Projetos\VendasApiFila\ProjetoDeVendas\Testes\bin\Debug\Testes.dll
+D:\Projetos\VendasApiFila\ProjetoDeVendas\Testes\bin\Debug\Testes.pdb
+D:\Projetos\VendasApiFila\ProjetoDeVendas\Testes\bin\Debug\Entidades.dll
+D:\Projetos\VendasApiFila\ProjetoDeVendas\Testes\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+D:\Projetos\VendasApiFila\ProjetoDeVendas\Testes\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+D:\Projetos\VendasApiFila\ProjetoDeVendas\Testes\bin\Debug\Entidades.pdb
+D:\Projetos\VendasApiFila\ProjetoDeVendas\Testes\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+D:\Projetos\VendasApiFila\ProjetoDeVendas\Testes\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+D:\Projetos\VendasApiFila\ProjetoDeVendas\Testes\obj\Debug\Testes.csproj.AssemblyReference.cache
+D:\Projetos\VendasApiFila\ProjetoDeVendas\Testes\obj\Debug\Testes.csproj.CoreCompileInputs.cache
+D:\Projetos\VendasApiFila\ProjetoDeVendas\Testes\obj\Debug\Testes.csproj.CopyComplete
+D:\Projetos\VendasApiFila\ProjetoDeVendas\Testes\obj\Debug\Testes.dll
+D:\Projetos\VendasApiFila\ProjetoDeVendas\Testes\obj\Debug\Testes.pdb

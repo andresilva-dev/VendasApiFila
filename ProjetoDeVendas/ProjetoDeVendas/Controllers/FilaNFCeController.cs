@@ -19,7 +19,7 @@ namespace ProjetoDeVendas.Controllers
 
         private string ObtenhaNFCe(long protocolo)
         {
-            var numeroNFCe = Program.ObtenhaFilaEmExecucao().ObtenhaNumeroNFCE(protocolo);
+            var numeroNFCe = Program.ObtenhaFilaEmExecucao().ObtenhaNumeroNFCeGerada(protocolo);
             return numeroNFCe;
         }
 
